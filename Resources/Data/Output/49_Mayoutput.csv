@@ -1,0 +1,47 @@
+Code,description,Message
+70, Stop before the waster eject is Occurred,2698
+32, Abnormal feed deflection is Occurred,1085
+28, Wire joint is Occurred,445
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,327
+114, Feed roller is opened is Occurred,295
+21, Emergency Stop is Occurred,288
+41, Defect detection: Side1 miss-strip is Occurred,285
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,257
+63, Defect detection: Side 2 seal miss-insert is Occurred,249
+27, Wire overload is Occurred,211
+56, Defect detection: Side 2 miss-strip is Occurred,184
+47, Side 1 No seal is Occurred,169
+80, Eject the teaching wire. is Occurred,151
+48, Defect detection: Side 1 seal miss-insert is Occurred,104
+46, Side 1 terminal overload is Occurred,79
+35, Under switching selector is Occurred,58
+86, Swing cover is opened is Occurred,57
+65, Miss air-transfer: Side 2 seal is Occurred,54
+50, Miss air-transfer: Side 1 seal is Occurred,41
+26, No wire is Occurred,35
+23, Air pressure drop is Occurred,18
+85, Return the ejector unit is Occurred,12
+11, Servo Alarm: Feed is Occurred,10
+12, Servo Alarm: Side 1 slider is Occurred,10
+20, Servo Alarm: Ejector is Occurred,10
+19, Servo Alarm: Side 2 stripper is Occurred,10
+14, Servo Alarm: Side 1  crimper is Occurred,10
+18, Servo Alarm: Side 1 stripper is Occurred,10
+15, Servo Alarm: Side 2 slider is Occurred,10
+17, Servo Alarm: Side 2 crimper is Occurred,10
+13, Servo Alarm: Swing is Occurred,9
+16, Servo Alarm: Transfer is Occurred,7
+45, Side 1 No terminal is Occurred,4
+77, Ejector cover is opened is Occurred,4
+60, Side 2 No terminal is Occurred,3
+49, Side 1 chuck is opened is Occurred,2
+106, Side 1 strip preset value is unsuitable is Occurred,2
+109, Side 2 strip preset value is unsuitable is Occurred,2
+89, Area sensor detects is Occurred,1
+61, Side 2 terminal overload is Occurred,1
+5, Abnormal origin search: No.2 Slider is Occurred,1
+6, Abnormal origin search: Transfer is Occurred,1
+69, Abnormal Sensor: Side 2 seal pass sensor is Occurred,1
+64, Side 2 chuck is opened is Occurred,1
+3, Abnormal origin search: Swing is Occurred,1
+2, Abnormal origin search: Side 1 slider is Occurred,1

@@ -1,0 +1,31 @@
+Code,description,Message
+70, Stop before the waster eject is Occurred,888
+114, Feed roller is opened is Occurred,359
+32, Abnormal feed deflection is Occurred,292
+28, Wire joint is Occurred,240
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,201
+35, Under switching selector is Occurred,123
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,107
+41, Defect detection: Side1 miss-strip is Occurred,74
+80, Eject the teaching wire. is Occurred,52
+56, Defect detection: Side 2 miss-strip is Occurred,47
+86, Swing cover is opened is Occurred,39
+26, No wire is Occurred,18
+21, Emergency Stop is Occurred,12
+109, Side 2 strip preset value is unsuitable is Occurred,9
+106, Side 1 strip preset value is unsuitable is Occurred,9
+23, Air pressure drop is Occurred,8
+46, Side 1 terminal overload is Occurred,4
+77, Ejector cover is opened is Occurred,3
+60, Side 2 No terminal is Occurred,3
+85, Return the ejector unit is Occurred,2
+13, Servo Alarm: Swing is Occurred,2
+17, Servo Alarm: Side 2 crimper is Occurred,2
+14, Servo Alarm: Side 1  crimper is Occurred,2
+18, Servo Alarm: Side 1 stripper is Occurred,2
+12, Servo Alarm: Side 1 slider is Occurred,2
+15, Servo Alarm: Side 2 slider is Occurred,2
+16, Servo Alarm: Transfer is Occurred,2
+20, Servo Alarm: Ejector is Occurred,2
+19, Servo Alarm: Side 2 stripper is Occurred,2
+11, Servo Alarm: Feed is Occurred,2

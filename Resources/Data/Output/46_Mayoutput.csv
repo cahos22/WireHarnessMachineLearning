@@ -1,0 +1,33 @@
+Code,description,Message
+70, Stop before the waster eject is Occurred,2054
+114, Feed roller is opened is Occurred,661
+41, Defect detection: Side1 miss-strip is Occurred,541
+80, Eject the teaching wire. is Occurred,368
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,323
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,318
+48, Defect detection: Side 1 seal miss-insert is Occurred,256
+32, Abnormal feed deflection is Occurred,183
+21, Emergency Stop is Occurred,121
+23, Air pressure drop is Occurred,90
+18, Servo Alarm: Side 1 stripper is Occurred,82
+19, Servo Alarm: Side 2 stripper is Occurred,82
+20, Servo Alarm: Ejector is Occurred,82
+12, Servo Alarm: Side 1 slider is Occurred,82
+50, Miss air-transfer: Side 1 seal is Occurred,81
+11, Servo Alarm: Feed is Occurred,81
+15, Servo Alarm: Side 2 slider is Occurred,81
+13, Servo Alarm: Swing is Occurred,81
+16, Servo Alarm: Transfer is Occurred,80
+14, Servo Alarm: Side 1  crimper is Occurred,80
+17, Servo Alarm: Side 2 crimper is Occurred,79
+56, Defect detection: Side 2 miss-strip is Occurred,61
+28, Wire joint is Occurred,55
+26, No wire is Occurred,40
+85, Return the ejector unit is Occurred,21
+77, Ejector cover is opened is Occurred,8
+60, Side 2 No terminal is Occurred,6
+61, Side 2 terminal overload is Occurred,4
+83, The edge length of side 1 is NOT enough. (Seal inserting length) is Occurred,3
+106, Side 1 strip preset value is unsuitable is Occurred,1
+109, Side 2 strip preset value is unsuitable is Occurred,1
+45, Side 1 No terminal is Occurred,1

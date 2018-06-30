@@ -1,0 +1,35 @@
+Code,description,Message
+70, Stop before the waster eject is Occurred,1713
+114, Feed roller is opened is Occurred,467
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,438
+32, Abnormal feed deflection is Occurred,434
+28, Wire joint is Occurred,219
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,186
+41, Defect detection: Side1 miss-strip is Occurred,149
+26, No wire is Occurred,124
+48, Defect detection: Side 1 seal miss-insert is Occurred,123
+80, Eject the teaching wire. is Occurred,121
+56, Defect detection: Side 2 miss-strip is Occurred,80
+21, Emergency Stop is Occurred,79
+23, Air pressure drop is Occurred,65
+12, Servo Alarm: Side 1 slider is Occurred,49
+11, Servo Alarm: Feed is Occurred,49
+13, Servo Alarm: Swing is Occurred,49
+20, Servo Alarm: Ejector is Occurred,48
+16, Servo Alarm: Transfer is Occurred,48
+19, Servo Alarm: Side 2 stripper is Occurred,48
+18, Servo Alarm: Side 1 stripper is Occurred,48
+15, Servo Alarm: Side 2 slider is Occurred,48
+14, Servo Alarm: Side 1  crimper is Occurred,47
+17, Servo Alarm: Side 2 crimper is Occurred,46
+63, Defect detection: Side 2 seal miss-insert is Occurred,45
+47, Side 1 No seal is Occurred,30
+65, Miss air-transfer: Side 2 seal is Occurred,19
+85, Return the ejector unit is Occurred,11
+61, Side 2 terminal overload is Occurred,8
+46, Side 1 terminal overload is Occurred,4
+50, Miss air-transfer: Side 1 seal is Occurred,4
+60, Side 2 No terminal is Occurred,1
+89, Area sensor detects is Occurred,1
+106, Side 1 strip preset value is unsuitable is Occurred,1
+109, Side 2 strip preset value is unsuitable is Occurred,1
