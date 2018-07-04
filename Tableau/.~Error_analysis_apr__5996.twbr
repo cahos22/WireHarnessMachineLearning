@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20181.18.0615.1128                               -->
+<workbook source-build='2018.1.2 (20181.18.0615.1128)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='final_april_total_error' inline='true' name='federated.1l1ueu01bfqd3q14fvm4313ctmbn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='final_april_total_error' name='textscan.0wxfa701flu1wk1h1a5t71ky79o5'>
+            <connection class='textscan' directory='/Users/vinu/Documents/WireHarnessMachineLearning/Resources' filename='final_april_total_error.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0wxfa701flu1wk1h1a5t71ky79o5' name='final_april_total_error.csv' table='[final_april_total_error#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='datetime' name='Time' ordinal='1' />
+            <column datatype='integer' name='Total_error' ordinal='2' />
+            <column datatype='string' name='Machine' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_error</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_error]</local-name>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias>Total_error</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Machine</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Machine]</local-name>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias>Machine</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Total error' datatype='integer' name='[Total_error]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.519298' measure-ordering='alphabetic' measure-percentage='0.480702' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='final_april_total_error (2)' inline='true' name='federated.11oc2k11fay5go16lq7020420gpc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='final_april_total_error' name='textscan.022qb5i1pzjxr5173se1a1sl5b65'>
+            <connection class='textscan' directory='/Users/vinu/Documents/WireHarnessMachineLearning/Resources' filename='final_april_total_error.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.022qb5i1pzjxr5173se1a1sl5b65' name='final_april_total_error.csv' table='[final_april_total_error#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='datetime' name='Time' ordinal='1' />
+            <column datatype='integer' name='Total_error' ordinal='2' />
+            <column datatype='string' name='Machine' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_error</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_error]</local-name>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias>Total_error</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Machine</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Machine]</local-name>
+            <parent-name>[final_april_total_error.csv]</parent-name>
+            <remote-alias>Machine</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Total error' datatype='integer' name='[Total_error]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.519298' measure-ordering='alphabetic' measure-percentage='0.480702' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_april_total_error (2)' name='federated.11oc2k11fay5go16lq7020420gpc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11oc2k11fay5go16lq7020420gpc'>
+            <column datatype='string' name='[Machine]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column caption='Total error' datatype='integer' name='[Total_error]' role='measure' type='quantitative' />
+            <column-instance column='[Time]' derivation='Hour' name='[hr:Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Machine]' derivation='None' name='[none:Machine:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_error]' derivation='Sum' name='[sum:Total_error:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.11oc2k11fay5go16lq7020420gpc].[hr:Time:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.11oc2k11fay5go16lq7020420gpc].[hr:Time:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.11oc2k11fay5go16lq7020420gpc].[none:Machine:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.11oc2k11fay5go16lq7020420gpc].[sum:Total_error:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.11oc2k11fay5go16lq7020420gpc].[none:Machine:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.11oc2k11fay5go16lq7020420gpc].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.11oc2k11fay5go16lq7020420gpc].[none:Machine:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.11oc2k11fay5go16lq7020420gpc].[sum:Total_error:qk] + [federated.11oc2k11fay5go16lq7020420gpc].[Multiple Values])</rows>
+        <cols>[federated.11oc2k11fay5go16lq7020420gpc].[hr:Time:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.11oc2k11fay5go16lq7020420gpc].[none:Machine:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+</workbook>
