@@ -1,0 +1,727 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20181.18.0615.1128                               -->
+<workbook original-version='18.1' source-build='2018.1.2 (20181.18.0615.1128)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Predictions' inline='true' name='federated.1wnm5sl1hi48zr16q2dyv1wjoh64' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Predictions' name='textscan.1y6rth50wrw2c41elwpfh0hjdij5'>
+            <connection class='textscan' directory='C:/Users/hernano1/Documents/UCBerkeleyDataAnalytics/Repositories/WireHarnessMachineLearning/Resources' filename='Predictions.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1y6rth50wrw2c41elwpfh0hjdij5' name='Predictions.csv' table='[Predictions#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Hours' ordinal='0' />
+            <column datatype='integer' name='Machine_Code' ordinal='1' />
+            <column datatype='integer' name='Actual Errors' ordinal='2' />
+            <column datatype='integer' name='Predictions' ordinal='3' />
+            <column datatype='string' name='Machine_Name' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hours]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Hours</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Machine_Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Machine_Code]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Machine_Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actual Errors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Actual Errors]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Actual Errors</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Predictions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Predictions]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Predictions</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Machine_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Machine_Name]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Machine_Name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Actual Errors]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Hours]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Machine Name (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Machine_Name]' new-bin='true'>
+          <bin default-name='true' value='&quot;Fifty&quot;'>
+            <value>&quot;Fifty&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Fifty One&quot;'>
+            <value>&quot;Fifty One&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Forty Nine&quot;'>
+            <value>&quot;Forty Nine&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Forty Seven&quot;'>
+            <value>&quot;Forty Seven&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Forty Six&quot;'>
+            <value>&quot;Forty Six&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Machine Code' datatype='integer' name='[Machine_Code]' role='dimension' type='ordinal' />
+      <column caption='Machine Name' datatype='string' name='[Machine_Name]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Predictions]' role='measure' type='quantitative' />
+      <column-instance column='[Actual Errors]' derivation='None' name='[none:Actual Errors:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Actual Errors]' derivation='Sum' name='[sum:Actual Errors:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hours]' derivation='Sum' name='[sum:Hours:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Predictions]' derivation='Sum' name='[sum:Predictions:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.473273' measure-ordering='alphabetic' measure-percentage='0.526727' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Actual Errors:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Actual Errors:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Predictions:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Hours:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='Predictions (2)' inline='true' name='federated.0hd9d1s0qcjswo12qvz620kcdmpr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Predictions' name='textscan.1mdyrdj0kycszs19bzxxz1fr1x0m'>
+            <connection class='textscan' directory='C:/Users/hernano1/Documents/UCBerkeleyDataAnalytics/Repositories/WireHarnessMachineLearning/Resources' filename='Predictions.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1mdyrdj0kycszs19bzxxz1fr1x0m' name='Predictions.csv' table='[Predictions#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Hours' ordinal='0' />
+            <column datatype='integer' name='Machine_Code' ordinal='1' />
+            <column datatype='integer' name='Actual Errors' ordinal='2' />
+            <column datatype='integer' name='Predictions' ordinal='3' />
+            <column datatype='string' name='Machine_Name' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hours]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Hours</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Machine_Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Machine_Code]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Machine_Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actual Errors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Actual Errors]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Actual Errors</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Predictions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Predictions]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Predictions</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Machine_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Machine_Name]</local-name>
+            <parent-name>[Predictions.csv]</parent-name>
+            <remote-alias>Machine_Name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Machine Code' datatype='integer' name='[Machine_Code]' role='dimension' type='ordinal' />
+      <column caption='Machine Name' datatype='string' name='[Machine_Name]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.444444' measure-ordering='alphabetic' measure-percentage='0.555556' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='ActualVsPredictedBar'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Comparision between actual errors and predicted errors by time</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Predictions' name='federated.1wnm5sl1hi48zr16q2dyv1wjoh64' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wnm5sl1hi48zr16q2dyv1wjoh64'>
+            <column datatype='integer' name='[Actual Errors]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Hours]' role='measure' type='quantitative' />
+            <column caption='Machine Name' datatype='string' name='[Machine_Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Predictions]' role='measure' type='quantitative' />
+            <column-instance column='[Machine_Name]' derivation='None' name='[none:Machine_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Actual Errors]' derivation='Sum' name='[sum:Actual Errors:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hours]' derivation='Sum' name='[sum:Hours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Predictions]' derivation='Sum' name='[sum:Predictions:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Actual Errors:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Hours:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Predictions:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Predictions:qk]' value='64' />
+            <encoding attr='space' class='0' field='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Predictions:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Actual Errors:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Machine_Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='249' />
+                <format attr='maxwidth' value='249' />
+                <format attr='minheight' value='351' />
+                <format attr='maxheight' value='351' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Predictions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Machine_Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='258' />
+                <format attr='maxwidth' value='258' />
+                <format attr='minheight' value='259' />
+                <format attr='maxheight' value='259' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Actual Errors:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Machine_Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='258' />
+                <format attr='maxwidth' value='258' />
+                <format attr='minheight' value='259' />
+                <format attr='maxheight' value='259' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Predictions:qk] + [federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Actual Errors:qk])</rows>
+        <cols>([federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Machine_Name:nk] * [federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Hours:qk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Total errorsVsPredicted'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Errors vs Predicted Errors</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Predictions' name='federated.1wnm5sl1hi48zr16q2dyv1wjoh64' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wnm5sl1hi48zr16q2dyv1wjoh64'>
+            <column datatype='integer' name='[Actual Errors]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Hours]' role='measure' type='quantitative' />
+            <column caption='Machine Name' datatype='string' name='[Machine_Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Predictions]' role='measure' type='quantitative' />
+            <column-instance column='[Hours]' derivation='None' name='[none:Hours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Machine_Name]' derivation='None' name='[none:Machine_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Actual Errors]' derivation='Sum' name='[sum:Actual Errors:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hours]' derivation='Sum' name='[sum:Hours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Predictions]' derivation='Sum' name='[sum:Predictions:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Actual Errors:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Predictions:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Hours:qk]' included-values='in-range'>
+            <min>0</min>
+            <max>26</max>
+          </filter>
+          <slices>
+            <column>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Hours:qk]</column>
+            <column>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names]' />
+              <tooltip column='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[sum:Hours:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[Multiple Values]</rows>
+        <cols>([federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Machine_Name:nk] / [federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names])</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Total errorsVsPredicted'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names]</field>
+            <field>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Hours:qk]</field>
+            <field>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Machine_Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='ActualVsPredictedBar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Machine_Name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[:Measure Names]</field>
+            <field>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[Machine Name (group)]</field>
+            <field>[federated.1wnm5sl1hi48zr16q2dyv1wjoh64].[none:Machine_Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='ActualVsPredictedBar' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Total errorsVsPredicted' width='192'>
+      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
+      tozFJH5iAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
