@@ -1,0 +1,175 @@
+Code,description,Message,Machine
+70, Stop before the waster eject is Occurred,2054,Forty-Six
+114, Feed roller is opened is Occurred,661,Forty-Six
+41, Defect detection: Side1 miss-strip is Occurred,541,Forty-Six
+80, Eject the teaching wire. is Occurred,368,Forty-Six
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,323,Forty-Six
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,318,Forty-Six
+48, Defect detection: Side 1 seal miss-insert is Occurred,256,Forty-Six
+32, Abnormal feed deflection is Occurred,183,Forty-Six
+21, Emergency Stop is Occurred,121,Forty-Six
+23, Air pressure drop is Occurred,90,Forty-Six
+18, Servo Alarm: Side 1 stripper is Occurred,82,Forty-Six
+19, Servo Alarm: Side 2 stripper is Occurred,82,Forty-Six
+20, Servo Alarm: Ejector is Occurred,82,Forty-Six
+12, Servo Alarm: Side 1 slider is Occurred,82,Forty-Six
+50, Miss air-transfer: Side 1 seal is Occurred,81,Forty-Six
+11, Servo Alarm: Feed is Occurred,81,Forty-Six
+15, Servo Alarm: Side 2 slider is Occurred,81,Forty-Six
+13, Servo Alarm: Swing is Occurred,81,Forty-Six
+16, Servo Alarm: Transfer is Occurred,80,Forty-Six
+14, Servo Alarm: Side 1  crimper is Occurred,80,Forty-Six
+17, Servo Alarm: Side 2 crimper is Occurred,79,Forty-Six
+56, Defect detection: Side 2 miss-strip is Occurred,61,Forty-Six
+28, Wire joint is Occurred,55,Forty-Six
+26, No wire is Occurred,40,Forty-Six
+85, Return the ejector unit is Occurred,21,Forty-Six
+77, Ejector cover is opened is Occurred,8,Forty-Six
+60, Side 2 No terminal is Occurred,6,Forty-Six
+61, Side 2 terminal overload is Occurred,4,Forty-Six
+83, The edge length of side 1 is NOT enough. (Seal inserting length) is Occurred,3,Forty-Six
+106, Side 1 strip preset value is unsuitable is Occurred,1,Forty-Six
+109, Side 2 strip preset value is unsuitable is Occurred,1,Forty-Six
+45, Side 1 No terminal is Occurred,1,Forty-Six
+70, Stop before the waster eject is Occurred,1713,Forty-Six
+114, Feed roller is opened is Occurred,467,Forty-Seven
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,438,Forty-Seven
+32, Abnormal feed deflection is Occurred,434,Forty-Seven
+28, Wire joint is Occurred,219,Forty-Seven
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,186,Forty-Seven
+41, Defect detection: Side1 miss-strip is Occurred,149,Forty-Seven
+26, No wire is Occurred,124,Forty-Seven
+48, Defect detection: Side 1 seal miss-insert is Occurred,123,Forty-Seven
+80, Eject the teaching wire. is Occurred,121,Forty-Seven
+56, Defect detection: Side 2 miss-strip is Occurred,80,Forty-Seven
+21, Emergency Stop is Occurred,79,Forty-Seven
+23, Air pressure drop is Occurred,65,Forty-Seven
+12, Servo Alarm: Side 1 slider is Occurred,49,Forty-Seven
+11, Servo Alarm: Feed is Occurred,49,Forty-Seven
+13, Servo Alarm: Swing is Occurred,49,Forty-Seven
+20, Servo Alarm: Ejector is Occurred,48,Forty-Seven
+16, Servo Alarm: Transfer is Occurred,48,Forty-Seven
+19, Servo Alarm: Side 2 stripper is Occurred,48,Forty-Seven
+18, Servo Alarm: Side 1 stripper is Occurred,48,Forty-Seven
+15, Servo Alarm: Side 2 slider is Occurred,48,Forty-Seven
+14, Servo Alarm: Side 1  crimper is Occurred,47,Forty-Seven
+17, Servo Alarm: Side 2 crimper is Occurred,46,Forty-Seven
+63, Defect detection: Side 2 seal miss-insert is Occurred,45,Forty-Seven
+47, Side 1 No seal is Occurred,30,Forty-Seven
+65, Miss air-transfer: Side 2 seal is Occurred,19,Forty-Seven
+85, Return the ejector unit is Occurred,11,Forty-Seven
+61, Side 2 terminal overload is Occurred,8,Forty-Seven
+46, Side 1 terminal overload is Occurred,4,Forty-Seven
+50, Miss air-transfer: Side 1 seal is Occurred,4,Forty-Seven
+60, Side 2 No terminal is Occurred,1,Forty-Seven
+89, Area sensor detects is Occurred,1,Forty-Seven
+106, Side 1 strip preset value is unsuitable is Occurred,1,Forty-Seven
+109, Side 2 strip preset value is unsuitable is Occurred,1,Forty-Seven
+109, Side 2 strip preset value is unsuitable is Occurred,1,Forty-Seven
+70, Stop before the waster eject is Occurred,2698,Forty-Nine
+32, Abnormal feed deflection is Occurred,1085,Forty-Nine
+28, Wire joint is Occurred,445,Forty-Nine
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,327,Forty-Nine
+114, Feed roller is opened is Occurred,295,Forty-Nine
+21, Emergency Stop is Occurred,288,Forty-Nine
+41, Defect detection: Side1 miss-strip is Occurred,285,Forty-Nine
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,257,Forty-Nine
+63, Defect detection: Side 2 seal miss-insert is Occurred,249,Forty-Nine
+27, Wire overload is Occurred,211,Forty-Nine
+56, Defect detection: Side 2 miss-strip is Occurred,184,Forty-Nine
+47, Side 1 No seal is Occurred,169,Forty-Nine
+80, Eject the teaching wire. is Occurred,151,Forty-Nine
+48, Defect detection: Side 1 seal miss-insert is Occurred,104,Forty-Nine
+46, Side 1 terminal overload is Occurred,79,Forty-Nine
+35, Under switching selector is Occurred,58,Forty-Nine
+86, Swing cover is opened is Occurred,57,Forty-Nine
+65, Miss air-transfer: Side 2 seal is Occurred,54,Forty-Nine
+50, Miss air-transfer: Side 1 seal is Occurred,41,Forty-Nine
+26, No wire is Occurred,35,Forty-Nine
+23, Air pressure drop is Occurred,18,Forty-Nine
+85, Return the ejector unit is Occurred,12,Forty-Nine
+11, Servo Alarm: Feed is Occurred,10,Forty-Nine
+12, Servo Alarm: Side 1 slider is Occurred,10,Forty-Nine
+20, Servo Alarm: Ejector is Occurred,10,Forty-Nine
+19, Servo Alarm: Side 2 stripper is Occurred,10,Forty-Nine
+14, Servo Alarm: Side 1  crimper is Occurred,10,Forty-Nine
+18, Servo Alarm: Side 1 stripper is Occurred,10,Forty-Nine
+15, Servo Alarm: Side 2 slider is Occurred,10,Forty-Nine
+17, Servo Alarm: Side 2 crimper is Occurred,10,Forty-Nine
+13, Servo Alarm: Swing is Occurred,9,Forty-Nine
+16, Servo Alarm: Transfer is Occurred,7,Forty-Nine
+45, Side 1 No terminal is Occurred,4,Forty-Nine
+77, Ejector cover is opened is Occurred,4,Forty-Nine
+60, Side 2 No terminal is Occurred,3,Forty-Nine
+49, Side 1 chuck is opened is Occurred,2,Forty-Nine
+106, Side 1 strip preset value is unsuitable is Occurred,2,Forty-Nine
+109, Side 2 strip preset value is unsuitable is Occurred,2,Forty-Nine
+89, Area sensor detects is Occurred,1,Forty-Nine
+61, Side 2 terminal overload is Occurred,1,Forty-Nine
+5, Abnormal origin search: No.2 Slider is Occurred,1,Forty-Nine
+6, Abnormal origin search: Transfer is Occurred,1,Forty-Nine
+69, Abnormal Sensor: Side 2 seal pass sensor is Occurred,1,Forty-Nine
+64, Side 2 chuck is opened is Occurred,1,Forty-Nine
+3, Abnormal origin search: Swing is Occurred,1,Forty-Nine
+2, Abnormal origin search: Side 1 slider is Occurred,1,Forty-Nine
+70, Stop before the waster eject is Occurred,800,Fifty
+32, Abnormal feed deflection is Occurred,328,Fifty
+28, Wire joint is Occurred,227,Fifty
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,196,Fifty
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,184,Fifty
+114, Feed roller is opened is Occurred,66,Fifty
+41, Defect detection: Side1 miss-strip is Occurred,53,Fifty
+35, Under switching selector is Occurred,47,Fifty
+80, Eject the teaching wire. is Occurred,26,Fifty
+26, No wire is Occurred,17,Fifty
+56, Defect detection: Side 2 miss-strip is Occurred,16,Fifty
+23, Air pressure drop is Occurred,16,Fifty
+21, Emergency Stop is Occurred,15,Fifty
+19, Servo Alarm: Side 2 stripper is Occurred,7,Fifty
+13, Servo Alarm: Swing is Occurred,7,Fifty
+14, Servo Alarm: Side 1  crimper is Occurred,7,Fifty
+15, Servo Alarm: Side 2 slider is Occurred,7,Fifty
+20, Servo Alarm: Ejector is Occurred,7,Fifty
+11, Servo Alarm: Feed is Occurred,7,Fifty
+16, Servo Alarm: Transfer is Occurred,7,Fifty
+12, Servo Alarm: Side 1 slider is Occurred,7,Fifty
+17, Servo Alarm: Side 2 crimper is Occurred,7,Fifty
+18, Servo Alarm: Side 1 stripper is Occurred,7,Fifty
+85, Return the ejector unit is Occurred,6,Fifty
+86, Swing cover is opened is Occurred,6,Fifty
+106, Side 1 strip preset value is unsuitable is Occurred,5,Fifty
+109, Side 2 strip preset value is unsuitable is Occurred,5,Fifty
+46, Side 1 terminal overload is Occurred,3,Fifty
+61, Side 2 terminal overload is Occurred,3,Fifty
+77, Ejector cover is opened is Occurred,2,Fifty
+60, Side 2 No terminal is Occurred,1,Fifty
+70, Stop before the waster eject is Occurred,888,Fifty-One
+114, Feed roller is opened is Occurred,359,Fifty-One
+32, Abnormal feed deflection is Occurred,292,Fifty-One
+28, Wire joint is Occurred,240,Fifty-One
+81, Defect detection: Side1 miss-crimp (CFM) is Occurred,201,Fifty-One
+35, Under switching selector is Occurred,123,Fifty-One
+82, Defect detection: Side2 miss-crimp (CFM) is Occurred,107,Fifty-One
+41, Defect detection: Side1 miss-strip is Occurred,74,Fifty-One
+80, Eject the teaching wire. is Occurred,52,Fifty-One
+56, Defect detection: Side 2 miss-strip is Occurred,47,Fifty-One
+86, Swing cover is opened is Occurred,39,Fifty-One
+26, No wire is Occurred,18,Fifty-One
+21, Emergency Stop is Occurred,12,Fifty-One
+109, Side 2 strip preset value is unsuitable is Occurred,9,Fifty-One
+106, Side 1 strip preset value is unsuitable is Occurred,9,Fifty-One
+23, Air pressure drop is Occurred,8,Fifty-One
+46, Side 1 terminal overload is Occurred,4,Fifty-One
+77, Ejector cover is opened is Occurred,3,Fifty-One
+60, Side 2 No terminal is Occurred,3,Fifty-One
+85, Return the ejector unit is Occurred,2,Fifty-One
+13, Servo Alarm: Swing is Occurred,2,Fifty-One
+17, Servo Alarm: Side 2 crimper is Occurred,2,Fifty-One
+14, Servo Alarm: Side 1  crimper is Occurred,2,Fifty-One
+18, Servo Alarm: Side 1 stripper is Occurred,2,Fifty-One
+12, Servo Alarm: Side 1 slider is Occurred,2,Fifty-One
+15, Servo Alarm: Side 2 slider is Occurred,2,Fifty-One
+16, Servo Alarm: Transfer is Occurred,2,Fifty-One
+20, Servo Alarm: Ejector is Occurred,2,Fifty-One
+19, Servo Alarm: Side 2 stripper is Occurred,2,Fifty-One
+11, Servo Alarm: Feed is Occurred,2,Fifty-One
