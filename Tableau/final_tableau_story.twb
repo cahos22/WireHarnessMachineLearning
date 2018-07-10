@@ -288,7 +288,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Predictions' name='textscan.1mdyrdj0kycszs19bzxxz1fr1x0m'>
-            <connection class='textscan' directory='/Users/vinu/Documents/WireHarnessMachineLearning/Tableau/Top_5_errors_may.twb Files/C:/Users/hernano1/Documents/UCBerkeleyDataAnalytics/Repositories/WireHarnessMachineLearning/Resources' filename='Predictions.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/vinu/Documents/WireHarnessMachineLearning/Tableau/final_tableau_story.twb Files/C:/Users/hernano1/Documents/UCBerkeleyDataAnalytics/Repositories/WireHarnessMachineLearning/Resources' filename='Predictions.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.1mdyrdj0kycszs19bzxxz1fr1x0m' name='Predictions.csv' table='[Predictions#csv]' type='table'>
