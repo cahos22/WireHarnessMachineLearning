@@ -1,72 +1,72 @@
-Hours,Machine_Code,Actual Errors,Predictions,Machine_Name
-3,00001,90,163,Forty Six
+Hours,Machine_Code,Actual_Errors,Predictions,Machine_Name
+3,00001,90,165,Forty Six
 7,10000,117,125,Fifty
 13,01000,102,101,Fifty One
 7,00100,313,232,Forty Nine
-8,00100,220,237,Forty Nine
-3,01000,26,71,Fifty One
-8,01000,64,135,Fifty One
-5,00001,287,176,Forty Six
+8,00100,220,236,Forty Nine
+3,01000,26,73,Fifty One
+8,01000,64,136,Fifty One
+5,00001,287,175,Forty Six
 22,00010,155,153,Forty Seven
 6,00001,112,196,Forty Six
-16,00010,237,155,Forty Seven
-4,01000,302,74,Fifty One
+16,00010,237,154,Forty Seven
+4,01000,302,76,Fifty One
 6,00001,245,196,Forty Six
-10,10000,162,118,Fifty
+10,10000,162,119,Fifty
 7,00001,127,191,Forty Six
 6,00100,461,238,Forty Nine
 11,10000,191,120,Fifty
-6,00010,92,167,Forty Seven
+6,00010,92,169,Forty Seven
 3,00100,247,190,Forty Nine
 9,00010,121,195,Forty Seven
-10,10000,145,118,Fifty
+10,10000,145,119,Fifty
 6,00100,89,238,Forty Nine
 9,00100,240,238,Forty Nine
-11,00100,303,220,Forty Nine
-11,00100,152,220,Forty Nine
-18,10000,62,114,Fifty
-5,00100,237,204,Forty Nine
-5,00001,172,176,Forty Six
-6,01000,231,126,Fifty One
+11,00100,303,222,Forty Nine
+11,00100,152,222,Forty Nine
+18,10000,62,113,Fifty
+5,00100,237,205,Forty Nine
+5,00001,172,175,Forty Six
+6,01000,231,125,Fifty One
 6,10000,155,121,Fifty
 7,10000,86,125,Fifty
-10,00010,194,185,Forty Seven
-6,00010,244,167,Forty Seven
+10,00010,194,184,Forty Seven
+6,00010,244,169,Forty Seven
 9,00010,122,195,Forty Seven
 6,00100,391,238,Forty Nine
 7,00100,263,232,Forty Nine
 7,00100,417,232,Forty Nine
 9,00100,365,238,Forty Nine
-5,01000,132,105,Fifty One
-4,01000,36,74,Fifty One
-16,00010,153,155,Forty Seven
+5,01000,132,100,Fifty One
+4,01000,36,76,Fifty One
+16,00010,153,154,Forty Seven
 6,00001,200,196,Forty Six
 7,00001,221,191,Forty Six
-10,01000,121,142,Fifty One
-5,00100,266,204,Forty Nine
-1,00010,135,140,Forty Seven
+10,01000,121,141,Fifty One
+5,00100,266,205,Forty Nine
+1,00010,135,142,Forty Seven
 2,00100,216,190,Forty Nine
-9,10000,137,118,Fifty
+9,10000,137,119,Fifty
 12,10000,89,118,Fifty
 4,00100,124,194,Forty Nine
-3,00001,196,163,Forty Six
-19,00010,155,154,Forty Seven
+3,00001,196,165,Forty Six
+19,00010,155,153,Forty Seven
 12,10000,73,118,Fifty
-9,00001,166,201,Forty Six
-4,01000,143,74,Fifty One
-2,01000,123,72,Fifty One
+9,00001,166,202,Forty Six
+4,01000,143,76,Fifty One
+2,01000,123,73,Fifty One
 6,00001,198,196,Forty Six
 9,00100,244,238,Forty Nine
 6,00001,207,196,Forty Six
 12,10000,126,118,Fifty
-10,01000,124,142,Fifty One
+10,01000,124,141,Fifty One
 9,00010,133,195,Forty Seven
-5,10000,64,102,Fifty
+5,10000,64,100,Fifty
 6,00001,277,196,Forty Six
 7,01000,103,139,Fifty One
-16,01000,69,98,Fifty One
-2,00001,40,163,Forty Six
+16,01000,69,99,Fifty One
+2,00001,40,164,Forty Six
 6,00001,205,196,Forty Six
 14,10000,154,113,Fifty
-8,00010,158,190,Forty Seven
+8,00010,158,191,Forty Seven
 7,00001,250,191,Forty Six
